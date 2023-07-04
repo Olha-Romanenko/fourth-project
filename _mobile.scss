@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+    .header-main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        margin: 0 auto;
+        height: 77px;
+        border-bottom: 1px solid #C4C4C4
+    }
+
+    .header-buttons {
+        display: none;
+    }
+}

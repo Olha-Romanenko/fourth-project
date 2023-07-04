@@ -1,0 +1,307 @@
+.header-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1220px;
+    margin: 0 auto;
+    height: 116px;
+    border-bottom: 1px solid #C4C4C4;
+
+    .header-links {
+        color: #393939;
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        justify-content: space-between;
+        justify-content: flex-end;
+        
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        ul {
+            list-style: none;
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+            justify-items: flex-end;
+        }
+
+        a {
+            color: #393939;
+            text-decoration: none;
+        }
+
+        li {
+            margin-right: 50px;
+        }
+    }
+
+    .header-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .header-buttons button {
+        width: 102px;
+        padding: 10px 16px;
+        gap: 10px;
+        color: #FFF;
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+        border: none;
+    }
+
+    .header-buttons-links {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .login {
+        border-radius: 8px;
+        background: #407F55;
+        width: 102px;
+        padding: 10px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sign {
+        border-radius: 8px;
+        background: #FB9C46;
+        display: flex;
+        width: 102px;
+        padding: 10px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 50px;
+    }
+}
+
+.header-bottom {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1220px;
+    margin: 0 auto;
+    
+
+    .header-text {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-items: flex-start;
+        
+
+        hr {
+            width: 136px;
+            height: 1px;
+            background: #FF922F;
+            border: none;
+        }
+    }
+    .header-info {
+        color: #FB9C46;
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-right: 24px;
+    }
+
+    .header-title {
+        flex-direction: column;
+        display: flex;
+        width: 656px;
+        flex-direction: column;
+        flex-shrink: 0;
+
+        .header-title-h3 {
+            color: #000;
+            font-size: 47px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            letter-spacing: 1.68px;
+        }
+    
+        .header-title-h4 {
+            color: #6C6C6C;
+            font-size: 18px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+        }
+    }
+
+    .header-bottom-button button{
+        color: #FFF;
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 16px;
+        display: flex;
+        width: 290px;
+        height: 62px;
+        padding: 10px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border: none;
+        background: #058E6E;
+        box-shadow: 0px 3.849479913711548px 3.623039960861206px 0px rgba(64, 127, 85, 0.03), 0px 10.643319129943848px 10.017241477966309px 0px rgba(64, 127, 85, 0.04), 0px 25.625011444091797px 24.117658615112305px 0px rgba(64, 127, 85, 0.05), 0px 85px 80px 0px rgba(64, 127, 85, 0.08);
+    }
+}
+
+.text-orange {
+    color: #FF922F;
+}
+
+.header-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;   
+    align-items: center;
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.header-right {
+    display: flex;
+    border-radius: 204px;
+    background: linear-gradient(122deg, #F1C365 0%, #F6AE54 63.02%, #FF922F 100%);
+    width: 462px;
+    height: 625px;
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 65px;
+    margin-bottom: 85px;
+
+    .china {
+        width: 109px;
+        height: 108px;
+        border-radius: 109px;
+        position: absolute;
+        left: 316px;
+    }
+    
+    .japan {
+        width: 109px;
+        height: 108px;
+        border-radius: 109px;
+        position: absolute;
+        top: 131px;
+        left: -50px;
+    }
+    
+    .italy {
+        width: 109px;
+        height: 108px;
+        border-radius: 109px;
+        border: 5px solid #FFF;
+        position: absolute;
+        left: 400px;
+        top: 295px;
+    }
+    
+    .online {
+        border-radius: 21px;
+        background: #FFF;
+        width: 237.578px;
+        padding: 15px 30px;
+        flex-shrink: 0;
+        position: absolute;
+        border-radius: 21px;
+        background: #FFF;
+        top: 485px;
+        left: -152px;
+        box-sizing: border-box;
+    }
+    
+    .main-block-header-text {
+        color: #000;
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+        margin-bottom: 12px;
+    
+    }
+    
+    .main-block-header-img {
+        position: relative;
+        height: 54px;
+    }
+    
+    .Ellipse-3 {
+        position: absolute;
+    }
+    
+    .Ellipse-4 {
+        position: absolute;
+        left: 25px;
+    }
+    .Ellipse-5 {
+        position: absolute;
+        left: 50px;
+    }
+    .Ellipse-6 {
+        position: absolute;
+        left: 75px;
+    }
+    
+    .ellipse-7 {
+        border-radius: 49.267px;
+        background: #058E6E;
+        width: 49.267px;
+        height: 49.267px;
+        flex-shrink: 0;
+        position: absolute;
+        left: 100px;
+        color: #FFF;
+        font-size: 16px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .chart {
+        position: absolute;
+        left: -18px;
+        top: -18px;
+    }    
+}
