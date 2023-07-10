@@ -51,6 +51,17 @@
     .header-right {
         left: -150px;
     }
+
+    .flags-block {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .flags-block-right-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 

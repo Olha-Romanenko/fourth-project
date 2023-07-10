@@ -159,4 +159,26 @@
         left: 0px;
         top: 0px;
     }
+
+    .flags-block {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .flags-block-right {
+        width: auto;
+    }
+
+    .flags-block-right-h5 {
+        width: auto;
+    }
+
+    .flags-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 115px;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    }
 }
